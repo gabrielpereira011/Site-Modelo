@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat' , 'sans-serif';
+}
+
+
+header{
+    background-image: url(img/Rectangle\ 2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 85vh;
+   
+    
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFFF;
+    
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    margin-left: 79%;
+    gap: 30px;
+    padding-top: 1px;
+    position: relative;
+}
+
+.contato{
+    border-right: 2.7px solid  #C4C4C4;
+    padding-right: 30px;
+    height: 28px;
+}
+
+nav button{
+    background: #26B623;
+    border-radius: 16px;
+    width: 60px;
+    padding: 10px;
+    color: #FFFF;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+
+nav button:hover{
+    background-color: #1e8d1c;
+    transition: 0.5s;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+    padding-left: 100px;
+    
+}
+
+.principal h2{
+    color: #26B623;
+    font-size:60px;
+    font-weight: bold;
+}
+
+.principal p{
+    font-weight: bold;
+    color: #FFFF;
+    margin-top: 10px;
+}
+
+.principal button {
+    background-color: #26B623;
+    width: 100px;
+    border-radius: 20px;
+    padding: 9px;
+    font-weight: bold;
+    color: #FFFF;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+}
+.logo2{
+    padding-left: 150px ;
+    margin-top: 20px;
+}
+
+.section h3{
+    color: #2E3192;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 60px;
+    padding-left: 150px;
+    margin-top: -450px;
+    
+}
+
+.section p {
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 100px;
+    line-height: 32px;
+    padding-right: 250px;
+    color: #000000;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container img{
+    width: 37vw;
+    padding-left: 150px;
+    margin-top: -25px;    
+}
+.img{
+    margin-left: 900px;
+    margin-top: -100px;
+}
+
+
+.sessao2{
+    height: 500px;
+    margin-top: -50px;
+    background-image: linear-gradient(82.01deg, rgba(38, 182, 35, 0.2) 7.58%, rgba(38, 182, 35, 0.02) 77.33%);
+}
+
+
+.sessao2 .img2{
+    margin-left: 70px;
+    width: 18vw;
+}
+
+.paragrafo  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -400px;
+    gap: 30px;
+
+}
+
+.paragrafo h4{
+    color: #2E3192;
+    font-size: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: 370px;
+}
+
+.paragrafo p {
+    color: #353434;
+    font-weight: 900;
+    line-height: 27px;
+    font-size: 25px;
+}
+
+.dowload-ico a{
+    text-decoration: none;
+    color:#26B623;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 550px;
+}
+
+
+.contatos{
+    background-color: #2E3192;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    margin-top: 200px;
+    
+}
+
+.contatos h5{
+    color: #FFFF;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.imgs{
+    width: 30px;
+    background-color: #FFFF;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.contatos a{
+   text-decoration: none;
+   color: #FFFF;
+   margin-left: 50px;
+   margin-top: -20px;
+   font-weight: bold;
+}
+
+.logo-footer{
+    margin-left: 70vw;
+    height: 5vw;
+    width: 200px;
+    
+}
